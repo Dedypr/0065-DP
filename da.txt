@@ -1,0 +1,60 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package uji;
+
+/**
+ *
+ * @author DEDY
+ */
+class Mahasiswa {
+ String nama;
+String nim;
+String ipk;
+String status;
+
+//kontruktor tanpa parameter
+public Mahasiswa () {
+    
+}
+
+// kontruktor dengan parameter
+public Mahasiswa (String nama, String nim, String ipk, String status) {
+    this.nama = nama;
+    this.nim = nim;
+    this.ipk = ipk;
+    this.status = status;
+}
+
+void setNama (String nama) {
+    this.nama = nama;
+}
+void setNim (String nim) {
+    this.nim = nim;
+}
+void setIpk (String ipk) {
+    this.ipk = ipk;
+}
+void setStatus (String status) {
+    this.status = status;
+}
+String getNama() {
+    return nama;
+}
+String getNim() {
+    return nim;   
+
+}
+String getIpk() {
+    return ipk;   
+
+}
+ String getStatus() {
+    return status;   
+
+}
+
+  
+}
